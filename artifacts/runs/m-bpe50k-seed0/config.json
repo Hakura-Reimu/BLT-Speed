@@ -1,0 +1,45 @@
+{
+  "data_manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "padded_sequence_length": 7424,
+  "parameter_counts": {
+    "embeddings_hash": 38597376,
+    "global_dense": 56623104,
+    "total": 95235072
+  },
+  "token_cache_meta_sha256": "47b2f1ec21b81704216dcb5e86142f4f1c06d44b84157aba61eaa6da1a757ba2",
+  "tokenizer_sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+  "training": {
+    "compile_model": true,
+    "data_seed": 0,
+    "grad_clip": 1.0,
+    "init_seed": 0,
+    "micro_batch_size": 2,
+    "model": {
+      "bos_id": 50256,
+      "family": "bpe",
+      "name": "M-BPE50K",
+      "tied_embeddings": true,
+      "trunk": {
+        "dropout": 0.0,
+        "ffn": 2048,
+        "head_dim": 64,
+        "kv_heads": 4,
+        "layers": 9,
+        "max_positions": 32769,
+        "norm_eps": 1e-05,
+        "q_heads": 12,
+        "rope_theta": 10000.0,
+        "width": 768
+      },
+      "vocab_size": 50257
+    },
+    "peak_lr": 0.0006,
+    "schedule_steps": 22889,
+    "val_interval_steps": 500,
+    "val_windows": 16,
+    "warmup_steps": 100,
+    "weight_decay": 0.1,
+    "window_bytes": 8192,
+    "windows_per_step": 16
+  }
+}

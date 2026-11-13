@@ -1,0 +1,68 @@
+{
+  "document_bytes": {
+    "test": 16778002,
+    "train": 10000002702,
+    "val": 16777661
+  },
+  "document_counts": {
+    "test": 3405,
+    "train": 2098056,
+    "val": 3479
+  },
+  "duplicate_documents": 33853,
+  "files": {
+    "test.bin": {
+      "sha256": "6c0c326554bad840b7c8230131ba8e8feda64257b87dabc66a4cab1414425b48",
+      "size": 16781406
+    },
+    "test.idx": {
+      "sha256": "81638f39d140a4a9fab2c45ce4bb189d6effe49cb2ffebe385890b04f9fbffe6",
+      "size": 465363
+    },
+    "train.bin": {
+      "sha256": "4cc0054e0a10f6c440a872ca9e4bf917e24d0c2e6133097adfefba5c6b22ebdb",
+      "size": 10002100757
+    },
+    "train.idx": {
+      "sha256": "f628b847383e90ed69d967265821f3a0f5c68a97d1b4cb6da4dc00a3adc8e5a8",
+      "size": 297458376
+    },
+    "val.bin": {
+      "sha256": "511541b799e4f2975316c15441dfa92da9ca9ad217a30fd7a9bd25033c24b2e2",
+      "size": 16781139
+    },
+    "val.idx": {
+      "sha256": "ea62b7d191c33347e23e34c09d05290dc1d8d311ccd1ac2a7711a3abf6fa9ff0",
+      "size": 475517
+    }
+  },
+  "seed": 0,
+  "selected_documents": 2104940,
+  "separator_hex": "0a",
+  "source_documents": 2916000,
+  "source_files": [
+    {
+      "path": "/home/ji1l/blt/data/raw/fineweb-edu/sample/10BT/000_00000.parquet",
+      "sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871"
+    },
+    {
+      "path": "/home/ji1l/blt/data/raw/fineweb-edu/sample/10BT/001_00000.parquet",
+      "sha256": "3fcf2dc69cd52503986276d3d2d26a8c356d0f2ea28a0de4fdbda8cf87755693"
+    },
+    {
+      "path": "/home/ji1l/blt/data/raw/fineweb-edu/sample/10BT/002_00000.parquet",
+      "sha256": "547ae182d132c9f06b6ce63149567208ea9f57630bfd9b1a2938e504f0c9ebd7"
+    },
+    {
+      "path": "/home/ji1l/blt/data/raw/fineweb-edu/sample/10BT/003_00000.parquet",
+      "sha256": "22184e6eb25759ddd97783751ffc73e1705dfa2542e630dae1f2a8bac8ee6ddb"
+    }
+  ],
+  "targets": {
+    "test": 16777216,
+    "train": 10000000000,
+    "val": 16777216
+  },
+  "unique_documents": 2882147,
+  "version": 1
+}

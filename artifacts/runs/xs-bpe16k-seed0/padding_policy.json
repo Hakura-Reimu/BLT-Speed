@@ -1,0 +1,8 @@
+{
+  "bpe_bucket_size": 256,
+  "global_bos_positions": 1,
+  "last_bucket": "capped at the model position limit",
+  "patch_bucket_size": 128,
+  "position_limit": 32769,
+  "version": 1
+}

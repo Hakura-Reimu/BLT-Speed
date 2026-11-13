@@ -1,0 +1,5 @@
+{
+  "autocast": "bfloat16",
+  "bf16_reduced_precision_reduction": false,
+  "version": 1
+}

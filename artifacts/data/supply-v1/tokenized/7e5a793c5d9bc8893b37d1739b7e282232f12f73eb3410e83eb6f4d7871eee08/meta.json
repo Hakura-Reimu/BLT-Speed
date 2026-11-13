@@ -1,0 +1,19 @@
+{
+  "bytes_per_token": 4.303661760336138,
+  "drop_short_tail": true,
+  "manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "max_tokens": 7674,
+  "offsets_sha256": "c9358335ee5bf32c42674ae862f71c9fa683803409a2e6be62a4461f761c3b35",
+  "sample_seed": 0,
+  "tokenizer_sha256": "7e5a793c5d9bc8893b37d1739b7e282232f12f73eb3410e83eb6f4d7871eee08",
+  "tokens_sha256": "42818789fec51baf6ce97fa2d7e1b78dac956ad74c769a4836ee3d3e115ece55",
+  "total_bytes": 10002095169,
+  "total_tokens": 2324089514,
+  "train_sha256": "4cc0054e0a10f6c440a872ca9e4bf917e24d0c2e6133097adfefba5c6b22ebdb",
+  "verified_windows": 256,
+  "version": 1,
+  "vocab_size": 16384,
+  "window_bytes": 8192,
+  "window_count": 1220960,
+  "window_index_sha256": "4c2f6e8edd1e664c07f16e48fbe862aea8cc3c8b61e009e4389463c1cc273523"
+}
