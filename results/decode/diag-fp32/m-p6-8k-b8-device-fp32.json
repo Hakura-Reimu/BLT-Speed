@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "batch": 8,
+      "mode": "verification",
+      "prompt_kib": 8,
+      "seed": 0,
+      "verification": [
+        {
+          "checked_output_bytes": 4096,
+          "checked_output_bytes_per_row": [
+            [
+              512,
+              512,
+              512,
+              512,
+              512,
+              512,
+              512,
+              512
+            ]
+          ],
+          "checked_units": 4096,
+          "checked_units_per_row": [
+            [
+              512,
+              512,
+              512,
+              512,
+              512,
+              512,
+              512,
+              512
+            ]
+          ],
+          "decoder_mode": "device",
+          "generated_patch_closures_per_row": [
+            [
+              91,
+              97,
+              99,
+              64,
+              96,
+              91,
+              89,
+              96
+            ]
+          ],
+          "greedy_mismatches": 0,
+          "identity": {
+            "consumed_bytes": 3000104248,
+            "data_manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+            "git_revision": "aa8d937a19095fecd0ff8e7a571bb05604c2c90f",
+            "kind": "checkpoint",
+            "path": "~/blt/runs/m-p6-seed0/ckpt/bytes-3000000000.pt",
+            "sha256": "8dc20ca4b9dc8ec2f155f10007b99b73a1af39adbca3ab23b37d002382ac7454",
+            "step": 22889,
+            "tokenizer_sha256": null
+          },
+          "k": null,
+          "local_block_resets_per_row": [
+            [
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ]
+          ],
+          "prompt_bytes_per_row": [
+            [
+              8192,
+              8192,
+              8192,
+              8192,
+              8192,
+              8192,
+              8192,
+              8192
+            ]
+          ],
+          "prompt_sha256": [
+            "12a5aef696a5159c740e9a54be59f99b2aa2da0320a0f8215631eaf72dcfd32a",
+            "2220afcd01c8bd5081484523a1fa78524501a3dc52b282ef7c5c2344e86385ba",
+            "e3f050ba8aaa91a2fc76bb90e462127f0a086cdc63cb6cbae41704e49df99c92",
+            "79b5c66b0b6f20e2b03a5e1be8b5f45219db1cc7d5be5c8052da454dddec6188",
+            "afbd1c4711bb5a7e975993cf6ddc0652c343c82da75b7ab4512fb37996258467",
+            "9e9b714f8ee29e6ecefcfeed859d7285a0e55b83ff425b79c3c1d9ac3cc34bdb",
+            "1412c7085749a9687827e0aae131e9155bfd20c80f1ba0e9dabc803411ee1185",
+            "916eb6e8ef728e23b750c343e1473eb2bb1c1cbf5d6c2452fe82bc304edfe06d"
+          ],
+          "raw_argmax_disagreements": 0,
+          "tie_records": [],
+          "tie_rule": "a mismatch is tolerated only if both paths prefer their own choice by <= 4 bf16 ulps of the reference top logit; the tested path is then forced to the reference token; at most 1% of checked decisions",
+          "ties_per_row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "tolerated_ties": 0
+        }
+      ],
+      "verify_bytes_per_row": 512
+    }
+  ]
+}

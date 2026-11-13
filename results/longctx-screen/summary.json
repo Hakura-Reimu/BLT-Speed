@@ -1,0 +1,391 @@
+{
+ "rule": "greedy exact >= 0.90 at 8 KiB at every depth (0.1, 0.5, 0.9); primary models m-p6, m-bpe16k",
+ "models": {
+  "m-p6": {
+   "cells": [
+    {
+     "kib": 2,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.145,
+     "mean_rank": 4.71
+    },
+    {
+     "kib": 2,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.15,
+     "mean_rank": 5.1
+    },
+    {
+     "kib": 2,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.11,
+     "mean_rank": 5.45
+    },
+    {
+     "kib": 4,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.14,
+     "mean_rank": 5.025
+    },
+    {
+     "kib": 4,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.1,
+     "mean_rank": 5.41
+    },
+    {
+     "kib": 4,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.15,
+     "mean_rank": 5.02
+    },
+    {
+     "kib": 8,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.085,
+     "mean_rank": 5.555
+    },
+    {
+     "kib": 8,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.1,
+     "mean_rank": 5.425
+    },
+    {
+     "kib": 8,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.12,
+     "mean_rank": 5.045
+    }
+   ],
+   "passes": false
+  },
+  "m-bpe16k": {
+   "cells": [
+    {
+     "kib": 2,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 2,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 2,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 4,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.995,
+     "mean_rank": 1.005
+    },
+    {
+     "kib": 4,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 4,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 8,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.315,
+     "mean_rank": 3.465
+    },
+    {
+     "kib": 8,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    },
+    {
+     "kib": 8,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.46,
+     "rank1": 1.0,
+     "mean_rank": 1.0
+    }
+   ],
+   "passes": false
+  },
+  "s-p6": {
+   "cells": [
+    {
+     "kib": 2,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.095,
+     "mean_rank": 5.13
+    },
+    {
+     "kib": 2,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.11,
+     "mean_rank": 5.5
+    },
+    {
+     "kib": 2,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.1,
+     "mean_rank": 5.355
+    },
+    {
+     "kib": 4,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.1,
+     "mean_rank": 5.545
+    },
+    {
+     "kib": 4,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.105,
+     "mean_rank": 5.405
+    },
+    {
+     "kib": 4,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.12,
+     "mean_rank": 5.505
+    },
+    {
+     "kib": 8,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.085,
+     "mean_rank": 5.615
+    },
+    {
+     "kib": 8,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.105,
+     "mean_rank": 5.605
+    },
+    {
+     "kib": 8,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.115,
+     "mean_rank": 5.425
+    }
+   ],
+   "passes": false
+  },
+  "s-bpe50k": {
+   "cells": [
+    {
+     "kib": 2,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.64,
+     "mean_rank": 1.88
+    },
+    {
+     "kib": 2,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.795,
+     "mean_rank": 1.47
+    },
+    {
+     "kib": 2,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.98,
+     "mean_rank": 1.02
+    },
+    {
+     "kib": 4,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.62,
+     "mean_rank": 1.955
+    },
+    {
+     "kib": 4,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.95,
+     "mean_rank": 1.09
+    },
+    {
+     "kib": 4,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.985,
+     "mean_rank": 1.025
+    },
+    {
+     "kib": 8,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.09,
+     "mean_rank": 5.66
+    },
+    {
+     "kib": 8,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.85,
+     "mean_rank": 1.275
+    },
+    {
+     "kib": 8,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.995,
+     "mean_rank": 1.005
+    }
+   ],
+   "passes": false
+  },
+  "m-p6-nohash": {
+   "cells": [
+    {
+     "kib": 2,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.09,
+     "mean_rank": 5.05
+    },
+    {
+     "kib": 2,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.14,
+     "mean_rank": 5.39
+    },
+    {
+     "kib": 2,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.115,
+     "mean_rank": 5.175
+    },
+    {
+     "kib": 4,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.1,
+     "mean_rank": 5.65
+    },
+    {
+     "kib": 4,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.12,
+     "mean_rank": 5.515
+    },
+    {
+     "kib": 4,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.155,
+     "mean_rank": 5.245
+    },
+    {
+     "kib": 8,
+     "depth": 0.1,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.075,
+     "mean_rank": 5.635
+    },
+    {
+     "kib": 8,
+     "depth": 0.5,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.105,
+     "mean_rank": 5.59
+    },
+    {
+     "kib": 8,
+     "depth": 0.9,
+     "n": 200,
+     "greedy": 0.0,
+     "rank1": 0.12,
+     "mean_rank": 5.1
+    }
+   ],
+   "passes": false
+  }
+ },
+ "continuation": false
+}

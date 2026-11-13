@@ -1,0 +1,34 @@
+[
+ {
+  "model": "S-BPE50K",
+  "reduced_precision_reduction": true,
+  "micro_batch": 2,
+  "nll_rel_compiled_vs_fp32": 1.0511030433994497e-05,
+  "grad_rel_compiled_bf16_vs_fp32": 0.02484904460415348,
+  "grad_rel_eager_bf16_vs_fp32": 0.02494875999097804
+ },
+ {
+  "model": "S-P6",
+  "reduced_precision_reduction": true,
+  "micro_batch": 4,
+  "nll_rel_compiled_vs_fp32": 3.1332522245660404e-05,
+  "grad_rel_compiled_bf16_vs_fp32": 0.005588129247427831,
+  "grad_rel_eager_bf16_vs_fp32": 0.005561881774043228
+ },
+ {
+  "model": "M-BPE50K",
+  "reduced_precision_reduction": true,
+  "micro_batch": 2,
+  "nll_rel_compiled_vs_fp32": 5.413715658463837e-06,
+  "grad_rel_compiled_bf16_vs_fp32": 0.02272125758800699,
+  "grad_rel_eager_bf16_vs_fp32": 0.022762957350630577
+ },
+ {
+  "model": "M-P8",
+  "reduced_precision_reduction": true,
+  "micro_batch": 4,
+  "nll_rel_compiled_vs_fp32": 2.7223616487302735e-05,
+  "grad_rel_compiled_bf16_vs_fp32": 0.007592404126443737,
+  "grad_rel_eager_bf16_vs_fp32": 0.007551859202706559
+ }
+]

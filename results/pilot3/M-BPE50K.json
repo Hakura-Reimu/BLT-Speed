@@ -1,0 +1,1453 @@
+{
+  "device": "cuda",
+  "global_batch_bytes": 131072,
+  "manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "max_measure_attempts": 90,
+  "measured_steps": 30,
+  "model": "M-BPE50K",
+  "model_config": {
+    "bos_id": 50256,
+    "family": "bpe",
+    "name": "M-BPE50K",
+    "tied_embeddings": true,
+    "trunk": {
+      "dropout": 0.0,
+      "ffn": 2048,
+      "head_dim": 64,
+      "kv_heads": 4,
+      "layers": 9,
+      "max_positions": 32769,
+      "norm_eps": 1e-05,
+      "q_heads": 12,
+      "rope_theta": 10000.0,
+      "width": 768
+    },
+    "vocab_size": 50257
+  },
+  "results": [
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 15,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 391,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 207,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 17,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 123588.06577110726,
+      "bytes_per_token": 4.627992128486452,
+      "compile": false,
+      "compile_new_graphs": 0,
+      "compile_recompiles": 0,
+      "data_wait_fraction": 0.006889267324359443,
+      "distinct_padding_buckets": 7,
+      "excluded_compile_seconds": 0,
+      "excluded_compile_steps": 0,
+      "measurement_attempts": 30,
+      "micro_batch_size": 1,
+      "padding_efficiency": 0.9349097711267605,
+      "padding_padded_positions": 908800,
+      "padding_real_positions": 849646,
+      "peak_allocated_bytes": 3765960192,
+      "peak_reserved_bytes": 4169138176,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 13,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 292,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 156,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 6,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3072
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 1.0605541280667543,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 2,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 99,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 51,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 0,
+      "warmup_compile_recompiles": 0,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 131,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 162,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 17,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 124374.31517474627,
+      "bytes_per_token": 4.627992128486452,
+      "compile": false,
+      "compile_new_graphs": 0,
+      "compile_recompiles": 0,
+      "data_wait_fraction": 0.0035922710554273547,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 0,
+      "excluded_compile_steps": 0,
+      "measurement_attempts": 30,
+      "micro_batch_size": 2,
+      "padding_efficiency": 0.8960393324784017,
+      "padding_padded_positions": 948224,
+      "padding_real_positions": 849646,
+      "peak_allocated_bytes": 4986102272,
+      "peak_reserved_bytes": 6209667072,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 96,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 125,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 6,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3072
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 1.0538496887333773,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 35,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 37,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 0,
+      "warmup_compile_recompiles": 0,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 22,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 112,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 16,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 115729.35199761557,
+      "bytes_per_token": 4.627992128486452,
+      "compile": false,
+      "compile_new_graphs": 0,
+      "compile_recompiles": 0,
+      "data_wait_fraction": 0.0017713531840651544,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 0,
+      "excluded_compile_steps": 0,
+      "measurement_attempts": 30,
+      "micro_batch_size": 4,
+      "padding_efficiency": 0.8527568570143885,
+      "padding_padded_positions": 996352,
+      "padding_real_positions": 849646,
+      "peak_allocated_bytes": 7501185536,
+      "peak_reserved_bytes": 10112466944,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 14,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 88,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 11,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 6,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3072
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 1.1325720836666733,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 8,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 24,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 0,
+      "warmup_compile_recompiles": 0,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 3,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 56,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 7,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 12162.661248236756,
+      "bytes_per_token": 4.627992128486452,
+      "compile": false,
+      "compile_new_graphs": 0,
+      "compile_recompiles": 0,
+      "data_wait_fraction": 9.097139089975628e-05,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 0,
+      "excluded_compile_steps": 0,
+      "measurement_attempts": 30,
+      "micro_batch_size": 8,
+      "padding_efficiency": 0.8280762693363274,
+      "padding_padded_positions": 1026048,
+      "padding_real_positions": 849646,
+      "peak_allocated_bytes": 12542100480,
+      "peak_reserved_bytes": 20040384512,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 45,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3072
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 10.776575180233278,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 2,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 11,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 4,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 0,
+      "warmup_compile_recompiles": 0,
+      "warmup_steps": 10
+    },
+    {
+      "compile": false,
+      "error": "CUDA error: device not ready\nSearch for `cudaErrorNotReady' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+      "micro_batch_size": 16,
+      "status": "error"
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 16,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 400,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 213,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 17,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 133111.31766368655,
+      "bytes_per_token": 4.632354985474397,
+      "compile": true,
+      "compile_new_graphs": 1,
+      "compile_recompiles": 1,
+      "data_wait_fraction": 0.008582364593057376,
+      "distinct_padding_buckets": 7,
+      "excluded_compile_seconds": 14.912788538999848,
+      "excluded_compile_steps": 1,
+      "measurement_attempts": 31,
+      "micro_batch_size": 1,
+      "padding_efficiency": 0.9353468794076164,
+      "padding_padded_positions": 907520,
+      "padding_real_positions": 848846,
+      "peak_allocated_bytes": 3327140864,
+      "peak_reserved_bytes": 3680501760,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 11,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 295,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 157,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 0.9846786056000686,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 2,
+          "shape": [
+            1,
+            0,
+            1536
+          ]
+        },
+        {
+          "microbatches": 99,
+          "shape": [
+            1,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 51,
+          "shape": [
+            1,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            1,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            1,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            1,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 6,
+      "warmup_compile_recompiles": 5,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 134,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 167,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 17,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 144596.74946223534,
+      "bytes_per_token": 4.632354985474397,
+      "compile": true,
+      "compile_new_graphs": 1,
+      "compile_recompiles": 1,
+      "data_wait_fraction": 0.004086595250441611,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 14.926071314000183,
+      "excluded_compile_steps": 1,
+      "measurement_attempts": 31,
+      "micro_batch_size": 2,
+      "padding_efficiency": 0.8990793621203904,
+      "padding_padded_positions": 944128,
+      "padding_real_positions": 848846,
+      "peak_allocated_bytes": 4148318208,
+      "peak_reserved_bytes": 5049942016,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 98,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 125,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 0.9064648213333385,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 35,
+          "shape": [
+            2,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 37,
+          "shape": [
+            2,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            2,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            2,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            2,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 5,
+      "warmup_compile_recompiles": 4,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 22,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 116,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 16,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 142888.11064855888,
+      "bytes_per_token": 4.632354985474397,
+      "compile": true,
+      "compile_new_graphs": 1,
+      "compile_recompiles": 1,
+      "data_wait_fraction": 0.0020354717250314187,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 16.731441855000412,
+      "excluded_compile_steps": 1,
+      "measurement_attempts": 31,
+      "micro_batch_size": 4,
+      "padding_efficiency": 0.8572400950103413,
+      "padding_padded_positions": 990208,
+      "padding_real_positions": 848846,
+      "peak_allocated_bytes": 5807764480,
+      "peak_reserved_bytes": 7115636736,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 14,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 90,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 11,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 0.9173042184667489,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 8,
+          "shape": [
+            4,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 24,
+          "shape": [
+            4,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            4,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            4,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            4,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 5,
+      "warmup_compile_recompiles": 4,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 3,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 58,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 12,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 7,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 75966.0979302541,
+      "bytes_per_token": 4.632354985474397,
+      "compile": true,
+      "compile_new_graphs": 1,
+      "compile_recompiles": 1,
+      "data_wait_fraction": 0.00044926681470427326,
+      "distinct_padding_buckets": 6,
+      "excluded_compile_seconds": 15.191415061000043,
+      "excluded_compile_steps": 1,
+      "measurement_attempts": 31,
+      "micro_batch_size": 8,
+      "padding_efficiency": 0.8339549012826962,
+      "padding_padded_positions": 1017856,
+      "padding_real_positions": 848846,
+      "peak_allocated_bytes": 9139222528,
+      "peak_reserved_bytes": 13344178176,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 46,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 8,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 1.7253994905333456,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 2,
+          "shape": [
+            8,
+            0,
+            1792
+          ]
+        },
+        {
+          "microbatches": 11,
+          "shape": [
+            8,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 4,
+          "shape": [
+            8,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            8,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            8,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 5,
+      "warmup_compile_recompiles": 4,
+      "warmup_steps": 10
+    },
+    {
+      "bucket_histogram": [
+        {
+          "microbatches": 22,
+          "shape": [
+            16,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 10,
+          "shape": [
+            16,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 7,
+          "shape": [
+            16,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            16,
+            0,
+            3072
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            16,
+            0,
+            3584
+          ]
+        }
+      ],
+      "bytes_per_second": 9612.898897024455,
+      "bytes_per_token": 4.632354985474397,
+      "compile": true,
+      "compile_new_graphs": 1,
+      "compile_recompiles": 1,
+      "data_wait_fraction": 2.232078396775984e-05,
+      "distinct_padding_buckets": 5,
+      "excluded_compile_seconds": 30.192055088000416,
+      "excluded_compile_steps": 1,
+      "measurement_attempts": 31,
+      "micro_batch_size": 16,
+      "padding_efficiency": 0.806372735286965,
+      "padding_padded_positions": 1052672,
+      "padding_real_positions": 848846,
+      "peak_allocated_bytes": 15411122688,
+      "peak_reserved_bytes": 24092082176,
+      "requested_steady_steps": 30,
+      "status": "ok",
+      "steady_bucket_histogram": [
+        {
+          "microbatches": 18,
+          "shape": [
+            16,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 7,
+          "shape": [
+            16,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 5,
+          "shape": [
+            16,
+            0,
+            2560
+          ]
+        }
+      ],
+      "steady_steps": 30,
+      "step_seconds": 13.634998981133382,
+      "warmup_bucket_histogram": [
+        {
+          "microbatches": 4,
+          "shape": [
+            16,
+            0,
+            2048
+          ]
+        },
+        {
+          "microbatches": 3,
+          "shape": [
+            16,
+            0,
+            2304
+          ]
+        },
+        {
+          "microbatches": 2,
+          "shape": [
+            16,
+            0,
+            2560
+          ]
+        },
+        {
+          "microbatches": 1,
+          "shape": [
+            16,
+            0,
+            3584
+          ]
+        }
+      ],
+      "warmup_compile_new_graphs": 4,
+      "warmup_compile_recompiles": 3,
+      "warmup_steps": 10
+    }
+  ],
+  "tokenizer_sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+  "warmup_steps": 10,
+  "window_bytes": 8192
+}

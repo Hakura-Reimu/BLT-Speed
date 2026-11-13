@@ -1,0 +1,265 @@
+{
+ "source": "last active_seconds record in ~/blt/runs/<run>/*.jsonl (training active time: includes compilation, in-training validation and checkpointing; excludes pauses)",
+ "runs": {
+  "confirm-m-bpe16k-3.0e-04": {
+   "active_seconds": 733.448359369002,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-m-bpe16k-6.0e-04": {
+   "active_seconds": 860.2562875829972,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-m-bpe50k-1.2e-03": {
+   "active_seconds": 2556.4219300330005,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-m-bpe50k-3.0e-04": {
+   "active_seconds": 2552.5471957669943,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-m-bpe50k-6.0e-04": {
+   "active_seconds": 2562.660735944002,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-m-p8-1.2e-03": {
+   "active_seconds": 984.8140844410009,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-m-p8-3.0e-04": {
+   "active_seconds": 983.5664205749999,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-m-p8-6.0e-04": {
+   "active_seconds": 983.6679851410008,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-s-bpe16k-1.2e-03": {
+   "active_seconds": 482.13896594400285,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-s-bpe16k-6.0e-04": {
+   "active_seconds": 392.64766423900437,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-s-bpe50k-1.2e-03": {
+   "active_seconds": 1639.7806960450034,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-s-bpe50k-6.0e-04": {
+   "active_seconds": 1629.6380977330045,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-s-p6-1.2e-03": {
+   "active_seconds": 526.1821071649974,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-s-p6-2.4e-03": {
+   "active_seconds": 527.8415079719998,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-s-p6-6.0e-04": {
+   "active_seconds": 526.6286335460027,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-xs-bpe16k-1.2e-03": {
+   "active_seconds": 225.31091224199918,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-xs-bpe16k-2.4e-03": {
+   "active_seconds": 181.73420562499814,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "confirm-xs-bpe50k-1.2e-03": {
+   "active_seconds": 853.5552025330035,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "confirm-xs-bpe50k-2.4e-03": {
+   "active_seconds": 848.8490422300019,
+   "consumed_bytes": 300023536,
+   "step": 2289
+  },
+  "lr-m-bpe50k-1.5e-04": {
+   "active_seconds": 1451.6253523410014,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-m-bpe50k-3.0e-04": {
+   "active_seconds": 1264.5666188330033,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-m-bpe50k-6.0e-04": {
+   "active_seconds": 1273.1653208839998,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-m-p8-1.5e-04": {
+   "active_seconds": 597.4660986550007,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-m-p8-3.0e-04": {
+   "active_seconds": 490.3295229630021,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-m-p8-6.0e-04": {
+   "active_seconds": 489.6958597190023,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-bpe50k-1.2e-03": {
+   "active_seconds": 867.4894758720002,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-bpe50k-3.0e-04": {
+   "active_seconds": 945.0789135889991,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-bpe50k-6.0e-04": {
+   "active_seconds": 780.4857349759986,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-p6-1.2e-03": {
+   "active_seconds": 291.25819485800093,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-p6-3.0e-04": {
+   "active_seconds": 370.5015233979975,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-s-p6-6.0e-04": {
+   "active_seconds": 344.7885076320017,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-xs-bpe50k-1.2e-03": {
+   "active_seconds": 478.777124966,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-xs-bpe50k-2.4e-03": {
+   "active_seconds": 426.60724087199924,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "lr-xs-bpe50k-6.0e-04": {
+   "active_seconds": 426.30817676399965,
+   "consumed_bytes": 150077294,
+   "step": 1145
+  },
+  "m-bpe16k-seed0": {
+   "active_seconds": 13456.088241074991,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-bpe16k-seed1": {
+   "active_seconds": 13631.217493142994,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-bpe50k-seed0": {
+   "active_seconds": 23590.032357819,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-p6-nohash-seed0": {
+   "active_seconds": 9335.981541918998,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-p6-seed0": {
+   "active_seconds": 9519.243334899998,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-p6-seed1": {
+   "active_seconds": 8851.764572236,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "m-p8-seed0": {
+   "active_seconds": 8922.666089978002,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "pilot-s-p6-gread": {
+   "active_seconds": 1841.212851777993,
+   "consumed_bytes": 750124389,
+   "step": 5723
+  },
+  "pilot-s-p6-poolbal": {
+   "active_seconds": 1217.2086923699972,
+   "consumed_bytes": 750124389,
+   "step": 5723
+  },
+  "pilot-s-p6-poolbal-w256": {
+   "active_seconds": 1724.4130569019908,
+   "consumed_bytes": 750124389,
+   "step": 5723
+  },
+  "s-bpe16k-seed0": {
+   "active_seconds": 6880.61168560799,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "s-bpe50k-seed0": {
+   "active_seconds": 15413.204023881997,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "s-p6-seed0": {
+   "active_seconds": 4796.753277338998,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "s-p8-seed0": {
+   "active_seconds": 4961.847867408012,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "xs-bpe16k-seed0": {
+   "active_seconds": 3524.617327861997,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  },
+  "xs-bpe50k-seed0": {
+   "active_seconds": 8395.330688655005,
+   "consumed_bytes": 3000104248,
+   "step": 22889
+  }
+ },
+ "hours_by_group": {
+  "lr_selection": 8.486,
+  "main_training": 36.466,
+  "exploratory_training": 1.329
+ },
+ "run_count_by_group": {
+  "lr_selection": 34,
+  "main_training": 13,
+  "exploratory_training": 3
+ }
+}

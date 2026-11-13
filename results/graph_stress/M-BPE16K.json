@@ -1,0 +1,1692 @@
+{
+  "records": [
+    {
+      "calibration": true,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 0
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1920
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 1
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 2
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2240
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 3
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3072
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 4
+    },
+    {
+      "calibration": true,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 5
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1920
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 6
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 7
+    },
+    {
+      "calibration": true,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1792
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 8
+    },
+    {
+      "calibration": true,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 9
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3328
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 10
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1280
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 11
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3008
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 12
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1216
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 13
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 14
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 15
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 16
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2944
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 17
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 18
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2880
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 19
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3072
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 20
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2752
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 21
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 22
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1856
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 23
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 24
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2880
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 25
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 26
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2944
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 27
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 28
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1856
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 29
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2560
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 30
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 31
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 32
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1856
+      ],
+      "kib": 8,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 33
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1792
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 34
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2880
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 35
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2880
+      ],
+      "kib": 12,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 36
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1088
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 37
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3008
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 38
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 39
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 40
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2752
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 41
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 42
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 43
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3584
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 44
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 45
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        896
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 46
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3136
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 47
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 48
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 49
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        4160
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 50
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2688
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 51
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1152
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 52
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 53
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 54
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2368
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 55
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 56
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2880
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 57
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2304
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 58
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 59
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1280
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 60
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        896
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 61
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2752
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 62
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 63
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 64
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1088
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 65
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3008
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 66
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 67
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 68
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1216
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 69
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2240
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 70
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3264
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 71
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1856
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 72
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 73
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 74
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 75
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 76
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 77
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 78
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 79
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 80
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3264
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 81
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1088
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 82
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3200
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 83
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3072
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 84
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2752
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 85
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2368
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 86
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2240
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 87
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        896
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 88
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2816
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 89
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 90
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2048
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 91
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2944
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 92
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 93
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1856
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 94
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 95
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 96
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 97
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1088
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 98
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3584
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 99
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        2944
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 100
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1920
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 101
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1984
+      ],
+      "kib": 8,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 102
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 103
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        896
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 104
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        3328
+      ],
+      "kib": 12,
+      "outcome": "miss",
+      "relative_error": 0.0,
+      "trial": 105
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1152
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 106
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        896
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 107
+    },
+    {
+      "calibration": false,
+      "checked": true,
+      "evicted": 0,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        1024
+      ],
+      "kib": 4,
+      "outcome": "hit",
+      "relative_error": 0.0,
+      "trial": 108
+    },
+    {
+      "calibration": false,
+      "checked": null,
+      "evicted": 1,
+      "key": [
+        "trunk",
+        "bpe",
+        2,
+        960
+      ],
+      "kib": 4,
+      "outcome": "miss",
+      "relative_error": null,
+      "trial": 109
+    }
+  ],
+  "summary": {
+    "batch": 2,
+    "cache_size": 4,
+    "checked": 33,
+    "checked_hits": 14,
+    "evictions": 86,
+    "failures": 0,
+    "hits": 14,
+    "max_relative_error": 0.0,
+    "misses": 86,
+    "model": {
+      "config": {
+        "bos_id": 0,
+        "family": "bpe",
+        "name": "M-BPE16K",
+        "tied_embeddings": true,
+        "trunk": {
+          "dropout": 0.0,
+          "ffn": 2048,
+          "head_dim": 64,
+          "kv_heads": 4,
+          "layers": 9,
+          "max_positions": 32769,
+          "norm_eps": 1e-05,
+          "q_heads": 12,
+          "rope_theta": 10000.0,
+          "width": 768
+        },
+        "vocab_size": 16384
+      },
+      "kind": "random",
+      "preset": "M-BPE16K",
+      "seed": 0,
+      "tokenizer_sha256": "7e5a793c5d9bc8893b37d1739b7e282232f12f73eb3410e83eb6f4d7871eee08"
+    },
+    "replays": 100,
+    "tolerance": 0.01
+  }
+}

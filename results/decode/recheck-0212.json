@@ -1,0 +1,1108 @@
+[
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 1,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 1,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 131,
+   "device": 131,
+   "device-conditional": 131,
+   "graph": 131,
+   "graph-split": 131
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 8,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 6,
+   "device-conditional": 6,
+   "graph": 6,
+   "graph-split": 6
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 8,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 32,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 21,
+   "device-conditional": 21,
+   "graph": 21,
+   "graph-split": 21
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 16384,
+   "device": 16384,
+   "device-conditional": 16384,
+   "graph": 16384,
+   "graph-split": 16384
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-2k.json",
+  "kib": 2,
+  "batch": 32,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 6656,
+   "device": 6656,
+   "device-conditional": 6656,
+   "graph": 6656,
+   "graph-split": 6656
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "m-p6",
+  "selected": [
+   "eager"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 9,
+   "device-conditional": 9,
+   "graph": 9,
+   "graph-split": 9
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 16384,
+   "device": 16384,
+   "device-conditional": 16384,
+   "graph": 16384,
+   "graph-split": 16384
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 7584,
+   "device": 7584,
+   "device-conditional": 7584,
+   "graph": 7584,
+   "graph-split": 7584
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "xs-bpe50k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 129,
+   "device": 129,
+   "device-conditional": 129,
+   "graph": 129,
+   "graph-split": 129
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 7,
+   "device-conditional": 7,
+   "graph": 7,
+   "graph-split": 7
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "xs-bpe50k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 1640,
+   "device": 1640,
+   "device-conditional": 1640,
+   "graph": 1640,
+   "graph-split": 1640
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "m-p6",
+  "selected": [
+   "eager"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 9,
+   "device-conditional": 9,
+   "graph": 9,
+   "graph-split": 9
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 16384,
+   "device": 16384,
+   "device-conditional": 16384,
+   "graph": 16384,
+   "graph-split": 16384
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/m-p6--xs-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "xs-bpe50k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 10400,
+   "device": 10400,
+   "device-conditional": 10400,
+   "graph": 10400,
+   "graph-split": 10400
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "s-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "s-bpe50k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 147,
+   "device": 147,
+   "device-conditional": 147,
+   "graph": 147,
+   "graph-split": 147
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "s-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 3,
+   "device-conditional": 3,
+   "graph": 3,
+   "graph-split": 3
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "s-bpe50k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 1312,
+   "device": 1312,
+   "device-conditional": 1312,
+   "graph": 1312,
+   "graph-split": 1312
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "s-p6",
+  "selected": [
+   "eager"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 25,
+   "device-conditional": 25,
+   "graph": 25,
+   "graph-split": 25
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 16384,
+   "device": 16384,
+   "device-conditional": 16384,
+   "graph": 16384,
+   "graph-split": 16384
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "diag/s-p6--s-bpe50k-8k.json",
+  "kib": 8,
+  "batch": 32,
+  "run": "s-bpe50k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 8128,
+   "device": 8128,
+   "device-conditional": 8128,
+   "graph": 8128,
+   "graph-split": 8128
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s1/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s1/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 119,
+   "device": 119,
+   "device-conditional": 119,
+   "graph": 119,
+   "graph-split": 119
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s1/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 7,
+   "device-conditional": 7,
+   "graph": 7,
+   "graph-split": 7
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "primary/s1/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 1472,
+   "device": 1472,
+   "device-conditional": 1472,
+   "graph": 1472,
+   "graph-split": 1472
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s2/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s2/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 119,
+   "device": 119,
+   "device-conditional": 119,
+   "graph": 119,
+   "graph-split": 119
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s2/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 7,
+   "device-conditional": 7,
+   "graph": 7,
+   "graph-split": 7
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "primary/s2/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 1472,
+   "device": 1472,
+   "device-conditional": 1472,
+   "graph": 1472,
+   "graph-split": 1472
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s3/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 512,
+   "device": 512,
+   "device-conditional": 512,
+   "graph": 512,
+   "graph-split": 512
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s3/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 1,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 119,
+   "device": 119,
+   "device-conditional": 119,
+   "graph": 119,
+   "graph-split": 119
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ },
+ {
+  "file": "primary/s3/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-p6",
+  "selected": [
+   "graph-split"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 7,
+   "device-conditional": 7,
+   "graph": 7,
+   "graph-split": 7
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 4096,
+   "device": 4096,
+   "device-conditional": 4096,
+   "graph": 4096,
+   "graph-split": 4096
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {
+   "device": null,
+   "device-conditional": null,
+   "graph": null,
+   "graph-split": null
+  }
+ },
+ {
+  "file": "primary/s3/m-p6--m-bpe16k-8k.json",
+  "kib": 8,
+  "batch": 8,
+  "run": "m-bpe16k",
+  "selected": [
+   "graph"
+  ],
+  "ties": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "raw": {
+   "eager": 0,
+   "device": 0,
+   "device-conditional": 0,
+   "graph": 0,
+   "graph-split": 0
+  },
+  "checked_units": {
+   "eager": 1472,
+   "device": 1472,
+   "device-conditional": 1472,
+   "graph": 1472,
+   "graph-split": 1472
+  },
+  "max_ties_one_row": 0,
+  "closures_identical_across_modes": true,
+  "ties_per_row": {}
+ }
+]

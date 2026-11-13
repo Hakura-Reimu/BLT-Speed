@@ -1,0 +1,57 @@
+ 8 KiB b1 P=stock
+    gpu_resident: bolmo   218.3 ms, olmo    87.6 ms, bolmo/olmo speed 0.401 [0.384, 0.408], bytes/patch 4.91, bytes/token 4.84
+    end_to_end: bolmo   217.9 ms, olmo    89.5 ms, bolmo/olmo speed 0.411 [0.391, 0.415], bytes/patch 4.91, bytes/token 4.84
+    events ms {"depool_inclusive": 69.3, "global_trunk": 90.7, "local_decoder": 70.7, "local_encoder": 44.7, "routing_pooling": 6.5}; trunk share of e2e 0.42; ceiling 0.812; optimistic 0.987
+ 8 KiB b1 P=4.4  
+    gpu_resident: bolmo   236.7 ms, olmo    87.7 ms, bolmo/olmo speed 0.370 [0.353, 0.374], bytes/patch 4.40, bytes/token 4.84
+    end_to_end: bolmo   237.6 ms, olmo    89.6 ms, bolmo/olmo speed 0.377 [0.362, 0.381], bytes/patch 4.40, bytes/token 4.84
+    events ms {"depool_inclusive": 69.3, "global_trunk": 111.9, "local_decoder": 70.6, "local_encoder": 46.0, "routing_pooling": 6.3}; trunk share of e2e 0.47; ceiling 0.683; optimistic 0.801
+ 8 KiB b1 P=6.0  
+    gpu_resident: bolmo   199.1 ms, olmo    88.0 ms, bolmo/olmo speed 0.442 [0.421, 0.447], bytes/patch 6.00, bytes/token 4.84
+    end_to_end: bolmo   199.3 ms, olmo    89.6 ms, bolmo/olmo speed 0.450 [0.431, 0.455], bytes/patch 6.00, bytes/token 4.84
+    events ms {"depool_inclusive": 69.5, "global_trunk": 71.1, "local_decoder": 70.8, "local_encoder": 46.3, "routing_pooling": 6.5}; trunk share of e2e 0.36; ceiling 0.987; optimistic 1.260
+ 8 KiB b1 P=8.0  
+    gpu_resident: bolmo   191.9 ms, olmo    87.8 ms, bolmo/olmo speed 0.457 [0.437, 0.463], bytes/patch 7.99, bytes/token 4.84
+    end_to_end: bolmo   192.9 ms, olmo    89.7 ms, bolmo/olmo speed 0.465 [0.447, 0.471], bytes/patch 7.99, bytes/token 4.84
+    events ms {"depool_inclusive": 69.7, "global_trunk": 64.3, "local_decoder": 71.0, "local_encoder": 46.2, "routing_pooling": 6.3}; trunk share of e2e 0.33; ceiling 1.067; optimistic 1.395
+ 8 KiB b4 P=stock
+    gpu_resident: bolmo   877.6 ms, olmo   389.1 ms, bolmo/olmo speed 0.443 [0.430, 0.455], bytes/patch 4.91, bytes/token 4.84
+    end_to_end: bolmo   879.6 ms, olmo   391.7 ms, bolmo/olmo speed 0.445 [0.431, 0.456], bytes/patch 4.91, bytes/token 4.84
+    events ms {"depool_inclusive": 267.5, "global_trunk": 415.8, "local_decoder": 273.4, "local_encoder": 175.8, "routing_pooling": 26.3}; trunk share of e2e 0.47; ceiling 0.804; optimistic 0.942
+ 8 KiB b4 P=4.4  
+    gpu_resident: bolmo   933.0 ms, olmo   389.4 ms, bolmo/olmo speed 0.417 [0.402, 0.431], bytes/patch 4.40, bytes/token 4.84
+    end_to_end: bolmo   932.4 ms, olmo   390.9 ms, bolmo/olmo speed 0.419 [0.407, 0.433], bytes/patch 4.40, bytes/token 4.84
+    events ms {"depool_inclusive": 265.7, "global_trunk": 460.1, "local_decoder": 271.7, "local_encoder": 177.5, "routing_pooling": 26.7}; trunk share of e2e 0.49; ceiling 0.734; optimistic 0.850
+ 8 KiB b4 P=6.0  
+    gpu_resident: bolmo   795.7 ms, olmo   389.2 ms, bolmo/olmo speed 0.489 [0.471, 0.505], bytes/patch 6.00, bytes/token 4.84
+    end_to_end: bolmo   795.5 ms, olmo   389.9 ms, bolmo/olmo speed 0.490 [0.475, 0.508], bytes/patch 6.00, bytes/token 4.84
+    events ms {"depool_inclusive": 268.9, "global_trunk": 318.0, "local_decoder": 274.5, "local_encoder": 177.3, "routing_pooling": 26.5}; trunk share of e2e 0.40; ceiling 0.996; optimistic 1.226
+ 8 KiB b4 P=8.0  
+    gpu_resident: bolmo   728.6 ms, olmo   389.8 ms, bolmo/olmo speed 0.535 [0.518, 0.551], bytes/patch 7.99, bytes/token 4.84
+    end_to_end: bolmo   730.1 ms, olmo   389.0 ms, bolmo/olmo speed 0.533 [0.521, 0.552], bytes/patch 7.99, bytes/token 4.84
+    events ms {"depool_inclusive": 267.6, "global_trunk": 245.6, "local_decoder": 273.0, "local_encoder": 177.0, "routing_pooling": 26.1}; trunk share of e2e 0.34; ceiling 1.215; optimistic 1.584
+16 KiB b1 P=stock
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b1 P=4.4  
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b1 P=6.0  
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b1 P=8.0  
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b4 P=stock
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b4 P=4.4  
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+16 KiB b4 P=6.0  
+    gpu_resident: olmo missing (OLMo prompt exceeds its position limit)
+    end_to_end: olmo missing (OLMo prompt exceeds its position limit)
+
+GATE P=6 batch 1 8 KiB: ceiling 0.987 optimistic 1.260
+GATE P=6 batch 1 16 KiB: missing
+THIN_BOLMO_GATE FAIL

@@ -1,0 +1,100 @@
+{
+  "adversarial_cases": 36,
+  "adversarial_mismatches": {
+    "encode_all_special": [],
+    "encode_ordinary": [
+      {
+        "case": 16,
+        "hf": [
+          0
+        ],
+        "text": "<|bos|>",
+        "tiktoken": [
+          30,
+          94,
+          68,
+          400,
+          94,
+          32
+        ]
+      },
+      {
+        "case": 17,
+        "hf": [
+          67,
+          0,
+          68,
+          1,
+          69,
+          2
+        ],
+        "text": "a<|bos|>b<|eos|>c<|pad|>",
+        "tiktoken": [
+          67,
+          30,
+          94,
+          68,
+          400,
+          94,
+          32,
+          68,
+          30,
+          94,
+          71,
+          400,
+          94,
+          32,
+          69,
+          30,
+          94,
+          82,
+          349,
+          94,
+          32
+        ]
+      },
+      {
+        "case": 18,
+        "hf": [
+          223,
+          0,
+          223
+        ],
+        "text": " <|bos|> ",
+        "tiktoken": [
+          6037,
+          94,
+          68,
+          400,
+          94,
+          32,
+          223
+        ]
+      }
+    ]
+  },
+  "exact": {
+    "encode_all_special": true,
+    "encode_ordinary": false
+  },
+  "tiktoken_version": "0.14.0",
+  "timing": {
+    "encode_all_special": {
+      "mean_ms_per_window": 0.13338227003259817,
+      "median_ms_per_window": 0.10452300011820626
+    },
+    "encode_ordinary": {
+      "mean_ms_per_window": 0.19828947001466682,
+      "median_ms_per_window": 0.1613610002095811
+    },
+    "hf": {
+      "mean_ms_per_window": 0.9054369366882989,
+      "median_ms_per_window": 0.7236260007630335
+    }
+  },
+  "window_mismatches": {
+    "encode_all_special": 0,
+    "encode_ordinary": 0
+  },
+  "windows": 4237
+}

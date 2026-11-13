@@ -1,0 +1,122 @@
+{
+ "frozen": "2026-11-11T18:53:19.437067+00:00",
+ "updated": "2026-11-11T22:55:31.007954+00:00",
+ "git_revision": "fd2bfc58452144e44579329c37cb75ba82ec4e0b",
+ "checkpoints": {
+  "s-bpe50k-seed0": {
+   "path": "~/blt/runs/s-bpe50k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "e58bb7abaf2b54e3db175ee1fdc86f0b61434a732dc04f7478d91f9a9b055ccb"
+  },
+  "s-bpe16k-seed0": {
+   "path": "~/blt/runs/s-bpe16k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "cca274a9c635f97c1f1f107d1ab78c70dc738448539a645280b7aee1d542c355"
+  },
+  "s-p6-seed0": {
+   "path": "~/blt/runs/s-p6-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "5ba4b493116956aa2948154a71d522ff8ba19ba66380557476d66df66e1a504a"
+  },
+  "s-p8-seed0": {
+   "path": "~/blt/runs/s-p8-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "7feefc87fd88621d2a95d12aa6e889a5803ae6483cf30d1ba73881a992c1dbd0"
+  },
+  "m-bpe50k-seed0": {
+   "path": "~/blt/runs/m-bpe50k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "e4af9599de13189214c3bc52d05f3547a0cee33455f228a7bbe87b0ec22f3dff"
+  },
+  "m-bpe16k-seed0": {
+   "path": "~/blt/runs/m-bpe16k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "2a703d42a3bcf745783ba58d856725e950c0a8f7a0c2781f120c467db27c2647"
+  },
+  "m-p6-seed0": {
+   "path": "~/blt/runs/m-p6-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "8dc20ca4b9dc8ec2f155f10007b99b73a1af39adbca3ab23b37d002382ac7454"
+  },
+  "m-p8-seed0": {
+   "path": "~/blt/runs/m-p8-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "b7f4724322b028206c077116198814cc13ac7eada2329e752f4110713941b675"
+  },
+  "m-p6-nohash-seed0": {
+   "path": "~/blt/runs/m-p6-nohash-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "422587b0494f59a9e83aa7cbb80188e5ade0a73e2d76cc60ee42b5ea81475152"
+  },
+  "xs-bpe50k-seed0": {
+   "path": "~/blt/runs/xs-bpe50k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "2a16c294c1a87b5ff4d91fcc034d20b10ab848b17ce05e0c9ab85451e2e799e7"
+  },
+  "xs-bpe16k-seed0": {
+   "path": "~/blt/runs/xs-bpe16k-seed0/ckpt/bytes-3000000000.pt",
+   "sha256": "3a949a9a0f6f127144ef11b408d598d5c02bc462353cd62b7b2c94c8b4a618a7"
+  },
+  "m-bpe16k-seed1": {
+   "path": "~/blt/runs/m-bpe16k-seed1/ckpt/bytes-3000000000.pt",
+   "sha256": "4ff4ee29df006e4e7ed2b22b0cb85752024f924d3799dfe2558f543e01c51c57"
+  },
+  "m-p6-seed1": {
+   "path": "~/blt/runs/m-p6-seed1/ckpt/bytes-3000000000.pt",
+   "sha256": "b464e5c7521fd18eb6177ae9f4e35a0c0a78b5299ca7c7c3c96e13442058ce09"
+  }
+ },
+ "tokenizers": {
+  "gpt2-50k": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+  "fineweb-16k": "7e5a793c5d9bc8893b37d1739b7e282232f12f73eb3410e83eb6f4d7871eee08"
+ },
+ "data": {
+  "supply_manifest": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "test_bin": "6c0c326554bad840b7c8230131ba8e8feda64257b87dabc66a4cab1414425b48",
+  "piqa_dir": "~/blt/data/eval/piqa",
+  "hellaswag_dir": "~/blt/data/eval/hellaswag"
+ },
+ "code": {
+  "scripts/score.py": "83b2a30acb4923c8cd43a2ee7dba87206a9880097939a05983eb376b566790a5",
+  "src/blt/score.py": "8222929edfd83d57dda7f1f8ba04d84d7139f0a25cb38b5685f8494a86f7b3f0",
+  "src/blt/eval_io.py": "be5e10c56a02eedbf7288a35414f2b92eb2a8d97871f6693f5e84d9f1d773201",
+  "src/blt/data.py": "2b028361a160e3edfeba849bd008ebc898736fd931ec3f8b333841531050e195",
+  "scripts/diag/paired_gain.py": "9d79b9473c84ff19de57118b5bf70b37d0878f6775f1486192a5cc0449422e89",
+  "scripts/eval_tasks.py": "c2b8acbe0bf655fa7446e87f6c8aabfef1b972f7fac1ce96f3d4ce7c3aa31041",
+  "src/blt/tasks.py": "7316d54e43884774c1bb5b37c1a02b2fa4f09abd3575193839e617d3bb863eef",
+  "scripts/task_eval.sh": "79ef9bb2b384baa6c047be24ae2c44469f25d7247404c04f896a715f8d7369f7",
+  "scripts/diag/queue_test_scores.sh": "68b55e79e3f6ac9ffca16e11d712a815089238e9e959f6f2bca2635a27c29af9"
+ },
+ "precision": "configure_matmul_precision(): bf16 autocast, reduced-precision bf16 reductions off",
+ "rules": {
+  "test_split": {
+   "opened": "once per 3 GB checkpoint, after this manifest; an unchanged technical retry is allowed, a rescoring after any change is not",
+   "metric": "BPB over the full 16 MiB test split, 8 KiB document windows, same scorer and precision as validation",
+   "intervals": "document-clustered paired bootstrap, scripts/diag/paired_gain.py, 2000 draws, seed 0",
+   "primary_pair": "M-P6 against M-BPE16K (best validation BPB of each registered family), each seed reported",
+   "registered_grid": [
+    "S-BPE50K",
+    "S-BPE16K",
+    "S-P6",
+    "S-P8",
+    "M-BPE50K",
+    "M-BPE16K",
+    "M-P6",
+    "M-P8"
+   ],
+   "ablation": "M-P6-nohash (not eligible as the primary byte model)",
+   "exploratory": "XS-BPE50K and XS-BPE16K, added after the registered validation results; marked separately",
+   "quality_tolerance": "|delta BPB| <= 0.03 and <= 3% (relaxed band 0.05 and 5% reported separately)",
+   "selection": "no model, pair or setting is chosen from test results; any test-driven analysis is labelled exploratory and never replaces the primary result"
+  },
+  "tasks": {
+   "data": "zero-shot, full validation splits: PIQA 1838, HellaSwag 10042; lm-eval-style templates (src/blt/tasks.py format_candidates)",
+   "primary_metric": "accuracy with each candidate's NLL divided by its UTF-8 byte length including the leading space (accuracy_byte_normalised; not identical to the harness acc_norm)",
+   "secondary_metric": "raw accuracy (summed candidate NLL)",
+   "aggregate": "equal-weight mean of the PIQA and HellaSwag accuracies",
+   "primary_pair": "M-P6 against M-BPE16K, reported per seed",
+   "retention": "drop of the aggregate <= 2 points; a point estimate within 2 points is reported as such, non-inferiority needs the one-sided 95% lower bound of the paired difference >= -2 points",
+   "above_chance": "both models >= 55% on PIQA and >= 30% on HellaSwag, each 95% interval excluding uniform chance (50% and 25%); otherwise the task-retention claim is unsupported",
+   "intervals": "paired item bootstrap, 2000 draws, seed 0",
+   "scoring_check": "before the run: independent full-sequence minus context NLL on 50 fixed items per task, for BPE50K, BPE16K and a byte model, agreement within 1e-3 nats per candidate in FP32"
+  },
+  "decode": {
+   "status": "secondary protocol details specified after the validation and prefill results and functional smoke tests, before any full decode measurement (late specification)",
+   "primary_batched_cell": "M-P6 against M-BPE16K, batch 8, 8 KiB prompts, 256 requested output bytes per row, distinct prompts per row; threshold >= 1.20x, interval excluding 1",
+   "primary_latency_cell": "M-P6 against M-BPE16K, batch 1, 8 KiB, 256 bytes; each model in its fastest correct non-speculative mode, chosen on calibration prompts separate from the timed ones; threshold >= 1.10x; comparator worded 'fastest tested non-speculative BPE implementation of the paired model'",
+   "measure": "post-prefill completion latency and batch x 256 / elapsed seconds; generated bytes and overshoot reported separately; completion polled on the device every 8 native steps for both families",
+   "sessions": "three sessions x 30 timed requests for the primary cells, crossed bootstrap as for prefill; one session for the diagnostic cells (batch 32, 2 KiB, eager/device/graph, XS pairs)",
+   "parity": ">= 512 greedy output bytes per row against the reference path before timing"
+  }
+ }
+}

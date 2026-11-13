@@ -1,0 +1,68 @@
+{
+  "annotation": "rule-based (see the builder docstring); lemmas define groups only",
+  "builder_commit": "16d2f4e659758d76bc27a522f2caba353fe57ba2",
+  "byte_config": "~/blt/runs/m-p6-seed0/config.json",
+  "classes": {
+    "magnitude:0-9": 60,
+    "magnitude:10-99": 330,
+    "magnitude:100-999": 229,
+    "magnitude:1000+": 400,
+    "parity:even": 541,
+    "parity:odd": 478,
+    "suffix:ed": 400,
+    "suffix:ing": 400,
+    "suffix:ly": 400,
+    "suffix:s": 400
+  },
+  "distinct_groups": {
+    "magnitude": 426,
+    "parity": 426,
+    "suffix": 1109
+  },
+  "documents_used": 1200,
+  "examples": 3638,
+  "files": {
+    "examples.jsonl": "50029b2a21fbee4e33afa725753a0c15fd494544cce8a2b27d8b61c5e7449083",
+    "robustness.txt": "68d6a516c16c98aab9a6b042d21874ff84fe47b968cabcc39b9d6acddd9c640c"
+  },
+  "forced_patch_closures": 0,
+  "patcher": {
+    "block_size": 64,
+    "max_len": 16,
+    "min_len": 3
+  },
+  "records": 2619,
+  "rejected": {
+    "no_lemma": 7411,
+    "no_natural_patch_end": 173
+  },
+  "robustness_text": {
+    "bytes": 403882,
+    "disjoint_from_example_documents": true,
+    "documents": 91
+  },
+  "settings": {
+    "byte_config": "~/blt/runs/m-p6-seed0/config.json",
+    "context": 448,
+    "output": "~/blt/data/probe-v1",
+    "per_class": 400,
+    "per_document": 3,
+    "per_form": 2,
+    "per_lemma": 4,
+    "per_value": 6,
+    "robustness_bytes": 400000,
+    "seed": 0,
+    "supply": "~/blt/data/supply-v1",
+    "tokenizer": "~/blt/data/tokenizer16k-v1/tokenizer.json"
+  },
+  "source_split": "val",
+  "supply_manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "tokenizer_sha256": "7e5a793c5d9bc8893b37d1739b7e282232f12f73eb3410e83eb6f4d7871eee08",
+  "type": "probe_examples_v1",
+  "unfilled_quota": {
+    "numeric:0-9": 340,
+    "numeric:10-99": 70,
+    "numeric:100-999": 171
+  },
+  "val_bin_sha256": "511541b799e4f2975316c15441dfa92da9ca9ad217a30fd7a9bd25033c24b2e2"
+}

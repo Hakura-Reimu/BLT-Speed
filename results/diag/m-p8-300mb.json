@@ -1,0 +1,170 @@
+{
+ "run": "~/blt/runs/confirm-m-p8-6.0e-04",
+ "windows": 16,
+ "bytes": 73616,
+ "bpb": 1.9800606759110977,
+ "groups": {
+  "block_offset=0": {
+   "bpb": 2.283330679351814,
+   "share_bytes": 0.01571669202347316,
+   "share_nats": 0.018123891611860614
+  },
+  "block_offset=1-7": {
+   "bpb": 2.1604479109790513,
+   "share_bytes": 0.10986742012605956,
+   "share_nats": 0.11987654781679045
+  },
+  "block_offset=8+": {
+   "bpb": 1.9519446620627265,
+   "share_bytes": 0.8744158878504673,
+   "share_nats": 0.8619995566182301
+  },
+  "document_first_256": {
+   "bpb": 1.9603138602663777,
+   "share_bytes": 0.003477504890241252,
+   "share_nats": 0.003442824312617231
+  },
+  "first_byte_of_patch_and_target_delim=(False, False)": {
+   "bpb": 1.9179792196511922,
+   "share_bytes": 0.69452292979787,
+   "share_nats": 0.6727473370535172
+  },
+  "first_byte_of_patch_and_target_delim=(False, True)": {
+   "bpb": 1.2240806283147971,
+   "share_bytes": 0.1730873723103673,
+   "share_nats": 0.10700323582434726
+  },
+  "first_byte_of_patch_and_target_delim=(True, False)": {
+   "bpb": 3.7887251851591826,
+   "share_bytes": 0.10943273201477939,
+   "share_nats": 0.20939284988041737
+  },
+  "first_byte_of_patch_and_target_delim=(True, True)": {
+   "bpb": 0.9363900246702427,
+   "share_bytes": 0.022956965876983263,
+   "share_nats": 0.010856573288599288
+  },
+  "patch_offset=0": {
+   "bpb": 3.2941175080376657,
+   "share_bytes": 0.13238969789176266,
+   "share_nats": 0.22024942316901666
+  },
+  "patch_offset=1": {
+   "bpb": 2.225322615743191,
+   "share_bytes": 0.13039284938056944,
+   "share_nats": 0.14654407321344368
+  },
+  "patch_offset=2": {
+   "bpb": 1.883607823936473,
+   "share_bytes": 0.1288306889806564,
+   "share_nats": 0.12255507958887728
+  },
+  "patch_offset=3": {
+   "bpb": 1.9616387904318662,
+   "share_bytes": 0.12701043251467073,
+   "share_nats": 0.1258287658764116
+  },
+  "patch_offset=4": {
+   "bpb": 2.0032677446968523,
+   "share_bytes": 0.12485057596174745,
+   "share_nats": 0.1263138724857048
+  },
+  "patch_offset=5": {
+   "bpb": 1.5480962797482372,
+   "share_bytes": 0.09760106498587263,
+   "share_nats": 0.07630869469925242
+  },
+  "patch_offset=6": {
+   "bpb": 1.517291648566366,
+   "share_bytes": 0.08017278852423386,
+   "share_nats": 0.06143523981361021
+  },
+  "patch_offset=7": {
+   "bpb": 1.3811445460855682,
+   "share_bytes": 0.059878287328841553,
+   "share_nats": 0.04176668471794208
+  },
+  "patch_offset=8": {
+   "bpb": 1.315861015490713,
+   "share_bytes": 0.11887361443164529,
+   "share_nats": 0.07899816248262251
+  },
+  "prev_delim=False": {
+   "bpb": 1.5630612821406509,
+   "share_bytes": 0.804105085850902,
+   "share_nats": 0.6347611170489003
+  },
+  "prev_delim=True": {
+   "bpb": 3.691750471210912,
+   "share_bytes": 0.19589491414909802,
+   "share_nats": 0.3652388789979809
+  },
+  "target_delim=False": {
+   "bpb": 2.1726211752157427,
+   "share_bytes": 0.8039556618126494,
+   "share_nats": 0.8821401869339346
+  },
+  "target_delim=True": {
+   "bpb": 1.1903918034700565,
+   "share_bytes": 0.19604433818735056,
+   "share_nats": 0.11785980911294655
+  }
+ },
+ "rms": {
+  "encoder_out": 0.9288613349199295,
+  "pooled": 0.19897345826029778,
+  "hash": 0.0534073153976351,
+  "cos_pooled_hash": 0.006897759099274481,
+  "decoder_local_in": 0.9286805912852287,
+  "decoder_global_in": 0.7322777397930622
+ },
+ "weight_rms": {
+  "byte_embedding.weight": 0.03476562723517418,
+  "pool.weight": 0.019347121939063072,
+  "condition.weight": 0.02135576494038105,
+  "head.weight": 0.12760865688323975,
+  "hash_embedding.weight": 0.03920306637883186
+ },
+ "grad_rms": {
+  "local_bos": {
+   "rms": 0.00021377051082134872,
+   "finite": true
+  },
+  "global_bos": {
+   "rms": 0.0014554041833793206,
+   "finite": true
+  },
+  "byte_embedding": {
+   "rms": 0.00458665872699061,
+   "finite": true
+  },
+  "encoder": {
+   "rms": 0.0029880527249519615,
+   "finite": true
+  },
+  "decoder": {
+   "rms": 0.001142903196877755,
+   "finite": true
+  },
+  "pool": {
+   "rms": 0.001398721680496527,
+   "finite": true
+  },
+  "global_trunk": {
+   "rms": 5.254285361641407e-05,
+   "finite": true
+  },
+  "condition": {
+   "rms": 0.0036047136509723826,
+   "finite": true
+  },
+  "head": {
+   "rms": 0.0017737679862628135,
+   "finite": true
+  },
+  "hash_embedding": {
+   "rms": 8.648810549099664e-06,
+   "finite": true
+  }
+ }
+}

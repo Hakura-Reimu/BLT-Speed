@@ -1,0 +1,127 @@
+{
+  "learning_rates": {
+    "S-BPE50K": 0.0006,
+    "S-P6": 0.0012,
+    "M-BPE50K": 0.0006,
+    "M-P8": 0.0006,
+    "S-BPE16K": 0.0012,
+    "M-BPE16K": 0.0006,
+    "S-P8": 0.0012,
+    "M-P6": 0.0006,
+    "M-P6-nohash": 0.0006
+  },
+  "record": {
+    "S-BPE50K": {
+      "confirm": [
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.3518517429045214,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0012,
+          "val_bpb": 1.393932686483074,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0006,
+      "extension": null
+    },
+    "S-P6": {
+      "confirm": [
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.829154365631508,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0012,
+          "val_bpb": 1.771882041228983,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0024,
+          "val_bpb": 1.7818713387819887,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0012,
+      "extension": 0.0024
+    },
+    "M-BPE50K": {
+      "confirm": [
+        {
+          "lr": 0.0003,
+          "val_bpb": 1.3802433938743737,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.352490828017071,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0012,
+          "val_bpb": 1.3590196614704173,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0006,
+      "extension": 0.0012
+    },
+    "M-P8": {
+      "confirm": [
+        {
+          "lr": 0.0003,
+          "val_bpb": 1.8956368911917272,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.805431054566121,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0012,
+          "val_bpb": 1.8376282590199793,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0006,
+      "extension": 0.0012
+    },
+    "S-BPE16K": {
+      "confirm": [
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.5561216888898683,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0012,
+          "val_bpb": 1.5252281964947159,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0012,
+      "extension": null
+    },
+    "M-BPE16K": {
+      "confirm": [
+        {
+          "lr": 0.0003,
+          "val_bpb": 1.541626002474954,
+          "state": "eligible"
+        },
+        {
+          "lr": 0.0006,
+          "val_bpb": 1.4734930268591357,
+          "state": "eligible"
+        }
+      ],
+      "selected": 0.0006,
+      "extension": null
+    }
+  },
+  "rules": null
+}

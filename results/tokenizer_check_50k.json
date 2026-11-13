@@ -1,0 +1,110 @@
+{
+  "adversarial_cases": 36,
+  "adversarial_mismatches": {
+    "encode_all_special": [],
+    "encode_ordinary": [
+      {
+        "case": 10,
+        "hf": [
+          50256
+        ],
+        "text": "<|endoftext|>",
+        "tiktoken": [
+          27,
+          91,
+          437,
+          1659,
+          5239,
+          91,
+          29
+        ]
+      },
+      {
+        "case": 11,
+        "hf": [
+          5239,
+          50256,
+          3549
+        ],
+        "text": "text<|endoftext|>more",
+        "tiktoken": [
+          5239,
+          27,
+          91,
+          437,
+          1659,
+          5239,
+          91,
+          29,
+          3549
+        ]
+      },
+      {
+        "case": 12,
+        "hf": [
+          220,
+          50256,
+          220
+        ],
+        "text": " <|endoftext|> ",
+        "tiktoken": [
+          1279,
+          91,
+          437,
+          1659,
+          5239,
+          91,
+          29,
+          220
+        ]
+      },
+      {
+        "case": 15,
+        "hf": [
+          50256,
+          50256
+        ],
+        "text": "<|endoftext|><|endoftext|>",
+        "tiktoken": [
+          27,
+          91,
+          437,
+          1659,
+          5239,
+          91,
+          6927,
+          91,
+          437,
+          1659,
+          5239,
+          91,
+          29
+        ]
+      }
+    ]
+  },
+  "exact": {
+    "encode_all_special": true,
+    "encode_ordinary": false
+  },
+  "tiktoken_version": "0.14.0",
+  "timing": {
+    "encode_all_special": {
+      "mean_ms_per_window": 0.15729281996755162,
+      "median_ms_per_window": 0.11614650065894239
+    },
+    "encode_ordinary": {
+      "mean_ms_per_window": 0.12864988657383947,
+      "median_ms_per_window": 0.10005200056184549
+    },
+    "hf": {
+      "mean_ms_per_window": 1.022457243198005,
+      "median_ms_per_window": 0.8333019995916402
+    }
+  },
+  "window_mismatches": {
+    "encode_all_special": 0,
+    "encode_ordinary": 0
+  },
+  "windows": 4237
+}

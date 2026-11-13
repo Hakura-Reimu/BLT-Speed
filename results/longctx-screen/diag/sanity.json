@@ -1,0 +1,46 @@
+{
+ "m-p6": {
+  "A_256": {
+   "rank1": 0.05,
+   "mean_rank": 4.875
+  },
+  "A_512": {
+   "rank1": 0.175,
+   "mean_rank": 6.15
+  },
+  "A_1024": {
+   "rank1": 0.125,
+   "mean_rank": 5.05
+  },
+  "B_first_digit_2k": {
+   "rank1": 0.075,
+   "mean_rank": 5.425
+  },
+  "C_pure_copy": {
+   "rank1": 0.375,
+   "mean_rank": 2.75
+  }
+ },
+ "m-bpe16k": {
+  "A_256": {
+   "rank1": 1.0,
+   "mean_rank": 1.0
+  },
+  "A_512": {
+   "rank1": 1.0,
+   "mean_rank": 1.0
+  },
+  "A_1024": {
+   "rank1": 1.0,
+   "mean_rank": 1.0
+  },
+  "B_first_digit_2k": {
+   "rank1": 0.375,
+   "mean_rank": 2.075
+  },
+  "C_pure_copy": {
+   "rank1": 1.0,
+   "mean_rank": 1.0
+  }
+ }
+}

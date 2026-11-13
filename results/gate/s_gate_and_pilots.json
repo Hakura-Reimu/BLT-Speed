@@ -1,0 +1,150 @@
+{
+ "note": "Full validation split (4237 chunks, 16,777,661 bytes). 95% CI: document-clustered paired bootstrap, 2000 resamples, seed 0. Pilots are exploratory, not registered.",
+ "gate_s_p6_vs_s_bpe50k": [
+  {
+   "a": "s-p6-seed0-bytes-375000000",
+   "b": "s-bpe50k-seed0-bytes-375000000",
+   "bpb_a": 1.73539795145183,
+   "bpb_b": 1.3204965455238802,
+   "diff": 0.41490140592794983,
+   "ci95": [
+    0.4095409629792216,
+    0.4204533154319959
+   ],
+   "ckpt_a": "~/blt/runs/s-p6-seed0/ckpt/bytes-375000000.pt",
+   "ckpt_b": "~/blt/runs/s-bpe50k-seed0/ckpt/bytes-375000000.pt"
+  },
+  {
+   "a": "s-p6-seed0-bytes-750000000",
+   "b": "s-bpe50k-seed0-bytes-750000000",
+   "bpb_a": 1.6148203766114049,
+   "bpb_b": 1.2459684939586566,
+   "diff": 0.3688518826527481,
+   "ci95": [
+    0.36376842648320273,
+    0.3744031202518064
+   ],
+   "ckpt_a": "~/blt/runs/s-p6-seed0/ckpt/bytes-750000000.pt",
+   "ckpt_b": "~/blt/runs/s-bpe50k-seed0/ckpt/bytes-750000000.pt"
+  },
+  {
+   "a": "s-p6-seed0-bytes-1500000000",
+   "b": "s-bpe50k-seed0-bytes-1500000000",
+   "bpb_a": 1.5065869235289233,
+   "bpb_b": 1.1826196977925938,
+   "diff": 0.32396722573632947,
+   "ci95": [
+    0.3192977872194874,
+    0.3288743732490184
+   ],
+   "ckpt_a": "~/blt/runs/s-p6-seed0/ckpt/bytes-1500000000.pt",
+   "ckpt_b": "~/blt/runs/s-bpe50k-seed0/ckpt/bytes-1500000000.pt"
+  },
+  {
+   "a": "s-p6-seed0-bytes-3000000000",
+   "b": "s-bpe50k-seed0-bytes-3000000000",
+   "bpb_a": 1.4025172291416652,
+   "bpb_b": 1.125532102828342,
+   "diff": 0.27698512631332317,
+   "ci95": [
+    0.27248215237460016,
+    0.2817857271718579
+   ],
+   "ckpt_a": "~/blt/runs/s-p6-seed0/ckpt/bytes-3000000000.pt",
+   "ckpt_b": "~/blt/runs/s-bpe50k-seed0/ckpt/bytes-3000000000.pt"
+  },
+  {
+   "a": "s-p6-seed0-active-3600s",
+   "b": "s-bpe50k-seed0-active-3600s",
+   "bpb_a": 1.4360677534571815,
+   "bpb_b": 1.257150199882235,
+   "diff": 0.17891755357494643,
+   "ci95": [
+    0.17493992193620442,
+    0.18257064601279832
+   ],
+   "ckpt_a": "~/blt/runs/s-p6-seed0/ckpt/active-3600s.pt",
+   "ckpt_b": "~/blt/runs/s-bpe50k-seed0/ckpt/active-3600s.pt"
+  }
+ ],
+ "pilots": [
+  {
+   "a": "pilot-s-p6-poolbal-bytes-375000000",
+   "b": "s-p6-seed0-bytes-375000000",
+   "bpb_a": 1.7557408712142701,
+   "bpb_b": 1.73539795145183,
+   "diff": 0.020342919762439973,
+   "ci95": [
+    0.01953613791022314,
+    0.02119747862002513
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal/ckpt/bytes-375000000.pt",
+   "ckpt_b": "~/blt/runs/s-p6-seed0/ckpt/bytes-375000000.pt"
+  },
+  {
+   "a": "pilot-s-p6-poolbal-bytes-750000000",
+   "b": "s-p6-seed0-bytes-750000000",
+   "bpb_a": 1.6369409886205173,
+   "bpb_b": 1.6148203766114049,
+   "diff": 0.022120612009112525,
+   "ci95": [
+    0.02135412356104131,
+    0.022974405097234658
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal/ckpt/bytes-750000000.pt",
+   "ckpt_b": "~/blt/runs/s-p6-seed0/ckpt/bytes-750000000.pt"
+  },
+  {
+   "a": "pilot-s-p6-poolbal-w256-bytes-375000000",
+   "b": "s-p6-seed0-bytes-375000000",
+   "bpb_a": 1.6457753875872252,
+   "bpb_b": 1.73539795145183,
+   "diff": -0.08962256386460499,
+   "ci95": [
+    -0.09108752099805498,
+    -0.08828820570660244
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal-w256/ckpt/bytes-375000000.pt",
+   "ckpt_b": "~/blt/runs/s-p6-seed0/ckpt/bytes-375000000.pt"
+  },
+  {
+   "a": "pilot-s-p6-poolbal-w256-bytes-750000000",
+   "b": "s-p6-seed0-bytes-750000000",
+   "bpb_a": 1.526483116268045,
+   "bpb_b": 1.6148203766114049,
+   "diff": -0.08833726034335987,
+   "ci95": [
+    -0.0895830611334213,
+    -0.08706427616843204
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal-w256/ckpt/bytes-750000000.pt",
+   "ckpt_b": "~/blt/runs/s-p6-seed0/ckpt/bytes-750000000.pt"
+  },
+  {
+   "a": "pilot-s-p6-poolbal-w256-bytes-375000000",
+   "b": "pilot-s-p6-poolbal-bytes-375000000",
+   "bpb_a": 1.6457753875872252,
+   "bpb_b": 1.7557408712142701,
+   "diff": -0.10996548362704496,
+   "ci95": [
+    -0.11147966569763956,
+    -0.10849740073452983
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal-w256/ckpt/bytes-375000000.pt",
+   "ckpt_b": "~/blt/runs/pilot-s-p6-poolbal/ckpt/bytes-375000000.pt"
+  },
+  {
+   "a": "pilot-s-p6-poolbal-w256-bytes-750000000",
+   "b": "pilot-s-p6-poolbal-bytes-750000000",
+   "bpb_a": 1.526483116268045,
+   "bpb_b": 1.6369409886205173,
+   "diff": -0.1104578723524724,
+   "ci95": [
+    -0.11185906348360748,
+    -0.10924996400045424
+   ],
+   "ckpt_a": "~/blt/runs/pilot-s-p6-poolbal-w256/ckpt/bytes-750000000.pt",
+   "ckpt_b": "~/blt/runs/pilot-s-p6-poolbal/ckpt/bytes-750000000.pt"
+  }
+ ]
+}

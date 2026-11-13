@@ -1,0 +1,108 @@
+{
+  "S-BPE50K": {
+    "screen": [
+      {
+        "lr": 0.0003,
+        "val_bpb": 1.6675552393154598,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0006,
+        "val_bpb": 1.570017145005189,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0012,
+        "val_bpb": 1.5625110698527864,
+        "state": "eligible"
+      }
+    ],
+    "confirm_lrs": [
+      0.0012,
+      0.0006
+    ]
+  },
+  "S-P6": {
+    "screen": [
+      {
+        "lr": 0.0003,
+        "val_bpb": 2.351297340377481,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0006,
+        "val_bpb": 2.120904980132879,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0012,
+        "val_bpb": 1.9713263697409205,
+        "state": "eligible"
+      }
+    ],
+    "confirm_lrs": [
+      0.0012,
+      0.0006
+    ]
+  },
+  "M-BPE50K": {
+    "screen": [
+      {
+        "lr": 0.00015,
+        "val_bpb": 1.7401135242295078,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0003,
+        "val_bpb": 1.6319542746534845,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0006,
+        "val_bpb": 1.554924345940034,
+        "state": "eligible"
+      }
+    ],
+    "confirm_lrs": [
+      0.0006,
+      0.0003
+    ]
+  },
+  "M-P8": {
+    "screen": [
+      {
+        "lr": 0.00015,
+        "val_bpb": 2.4777323959978133,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0003,
+        "val_bpb": 2.208567150463797,
+        "state": "eligible"
+      },
+      {
+        "lr": 0.0006,
+        "val_bpb": 2.0486302530170875,
+        "state": "eligible"
+      }
+    ],
+    "confirm_lrs": [
+      0.0006,
+      0.0003
+    ]
+  },
+  "S-BPE16K": {
+    "transferred_from": "S-BPE50K",
+    "confirm_lrs": [
+      0.0012,
+      0.0006
+    ]
+  },
+  "M-BPE16K": {
+    "transferred_from": "M-BPE50K",
+    "confirm_lrs": [
+      0.0006,
+      0.0003
+    ]
+  }
+}
