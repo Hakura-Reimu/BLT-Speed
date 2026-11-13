@@ -6,12 +6,12 @@
 
 | 目录或文件 | 内容 | 报告章节 |
 |---|---|---|
-| `main-scores/` | 验证集评分：13 个模型在 0.375 / 0.75 / 1.5 / 3GB 训练量的 BPB，12 个模型在 1 小时活跃训练时间点的 BPB，以及 3 个探索性 pilot 的早期检查点；含逐文档 NLL | §3.1 |
+| `main-scores/` | 验证集评分：13 个模型在 0.375 / 0.75 / 1.5 / 3GB 训练量的 BPB，12 个模型在 1 小时活跃训练时间点的 BPB，以及 3 个探索性 pilot 的早期检查点；含逐窗口 NLL 和所属文档编号（文档聚类 bootstrap 由此计算） | §3.1 |
 | `test-scores/` | 测试集评分（模型选择冻结后只打开一次） | §3.1 |
 | `final-timing/` | 最终配对 prefill 测速：`summary-end_to_end.md/json`（主口径）、`summary-gpu_resident_preprocessed.*`（GPU 常驻口径）、冻结的 graph 缓存策略 `policy/`、运行清单。逐请求原始计时在 `raw-timing.tar.gz`（三轮 `s1`–`s3`、锚点 `anchor`、长度曲线 `curve`），用 `tar -xzf raw-timing.tar.gz` 解压到本目录即可重算 | §3.2 |
 | `final-timing-seed1/` | 换一组提示（种子 1）的单轮敏感性测速；原始记录同样在 `raw-timing.tar.gz` | §3.2 |
 | `decode/` | 解码测速：`primary/`（三轮主测量和 `summary.md`）、`diag/`（单轮诊断格子）、`diag-fp32/`（CPU FP32 平局检查）、`recheck-0212.json` | §3.3 |
-| `tasks/` | PIQA 逐题输出和全部 13 个模型的汇总 `summary.json`（HellaSwag 逐题输出每个约 12MB，未收录） | §3.4 |
+| `tasks/` | 全部 13 个模型的汇总 `summary.json`，以及逐题结果：PIQA 为 `*-piqa.json`，HellaSwag 压缩在 `hellaswag-items.tar.gz`（解压到本目录）。逐题结果保留编号、标签、预测和 NLL；题目和候选答案的原文换成了 UTF‑8 文本的 SHA‑256（`"sha256:…"`），所以 `scripts/diag/task_summary.py` 仍能核对配对并重算区间 | §3.4 |
 | `task-scoring-check/` | 候选答案打分器的独立核对 | 附录 A |
 | `longctx-screen/` | 长上下文检索筛查，`summary.json` 为判定；`diag/` 为短上下文与纯复制检查（`sanity.json`）和评分审计（`audit.json`） | §3.5 |
 | `probes/` | 预注册的线性探针与鲁棒性结果（两个种子） | §3.6 |
@@ -34,4 +34,4 @@
 - 训练逐步日志（`log.jsonl`）和各作业的运行日志（`*.log`）。
 - 作废或被取代的测速：第一次训练吞吐 pilot（BPE 窗口填充错误）、按最坏情况补齐的 graph 测速、因 autocast 缓存导致非法显存访问而崩溃的一次重测、随机权重和临时测速。这些运行的 GPU 时间计入报告 §6 的估计。
 - 第一次解码运行（一致性检查未过、改为平局规则之前）的记录。
-- HellaSwag 逐题输出。
+- PIQA 和 HellaSwag 的题目原文。

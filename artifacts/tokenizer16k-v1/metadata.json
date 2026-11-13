@@ -1,0 +1,11 @@
+{
+  "bos_id": 0,
+  "pretokenizer": "GPT-2 ByteLevel regex; no normalization or prefix space",
+  "sample_bytes": 200007496,
+  "sample_sha256": "6d208c387c20ded0217d152fe33c82a4e71287856d6bac735ed27c3433df2342",
+  "sample_windows": 24415,
+  "seed": 0,
+  "tokenizer_sha256": "7e5a793c5d9bc8893b37d1739b7e282232f12f73eb3410e83eb6f4d7871eee08",
+  "train_manifest_sha256": "7f7921e53a5f0175cc14887b55063275e708ff0c2d3cc7b5f858b15180d77db5",
+  "vocab_size": 16384
+}

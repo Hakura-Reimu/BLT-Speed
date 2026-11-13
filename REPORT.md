@@ -65,7 +65,7 @@
 ### 2.3 相对计划的改动（都记录在实验日志中）
 - **研究负责人批准删减**（11/11 10:45）：删去共同续训和推测解码/MBP；Thin‑Bolmo 改为以 Track A 的速度估计 ≥1.20 倍为闸门。
 - **探索性补充**（看到预注册结果之后加的，下文都标出）：XS 小 BPE 对照；C1 全局直连读出、冻结读出、解码器容量续训等诊断；事后的去哈希探针；检索评分审计。
-- **后来补定或修改的测量协议**：解码的 batch、长度和对照方式是在看过验证集和 prefill 结果之后、正式解码测量之前补定的；解码一致性检查改为容许 bf16 数值平局（在读任何解码测速数字之前定的，见 §3.3）；检索提示改为 v2 格式（在任何检索测量之前定的）。
+- **后来补定或修改的测量协议**：解码的 batch、长度和对照方式是在看过验证集和 prefill 结果之后、正式解码测量之前补定的；解码一致性检查改为容许 bf16 数值平局（在读任何解码测速数字之前定的，见 §3.3）；检索提示改为 v2 格式（在 CPU 上查看 6 个格式检查样例之后、正式 GPU 筛查之前定的）。
 
 ## 3. 结果
 
@@ -281,4 +281,5 @@
 - **结果**：`results/`（目录说明、收录范围和未收录的内容见 `results/README.md`）。主要文件：`main-scores/`、`test-scores/`、`final-timing/summary-end_to_end.md`（逐请求原始计时在同目录的 `raw-timing.tar.gz`）、`final-timing-seed1/`、`decode/primary/summary.md`、`tasks/summary.json`、`probes/`、`probes-posthoc/`、`longctx-screen/`（含 `diag/audit.json`）、`trackA/gate.txt`、`router/a2.json`、`ledger-training.json`、`figures/`。
 - **代码**：`src/blt/`（模型、数据、评分、探针、路由）；队列任务脚本 `scripts/final_timing.sh`、`decode_timing.sh`、`task_eval.sh`、`probe_run.sh`、`trackA_run.sh`、`longctx_screen.sh`、`router_run.sh`；汇总 `scripts/diag/timing_summary.py`、`decode_summary.py`、`task_summary.py`、`trackA_gate.py`、`screen_summary.py`；图 `scripts/diag/report_figures.py`。
 - **运行方式**：代码在 WSL2（Ubuntu 24.04）的 `~/blt/code` 中运行，Python 环境在 `~/blt/venv`，数据和检查点在 `~/blt/data`、`~/blt/runs`；任务由 `scripts/queue_daemon.py` 排队执行。环境和版本见 `README.md`。
-- **未收入本仓库**：模型检查点（13 个最终权重约 2.9GB，未公开）、训练逐步日志、作废或被取代的测速、HellaSwag 逐题输出、逐日实验记录、与 GPT‑6.1 Sol 的讨论原文。
+- **复现用的小型产物**：`artifacts/`（数据供给清单和切分索引、16K 分词器、探针样例、各 run 的配置）。
+- **未收入本仓库**：模型检查点（13 个最终模型的 FP32 参数文件，不含优化器状态，共约 3.1GB，未公开）、训练逐步日志、作废或被取代的测速、PIQA/HellaSwag 题目原文（逐题结果用哈希代替）、逐日实验记录、与 GPT‑6.1 Sol 的讨论原文。
